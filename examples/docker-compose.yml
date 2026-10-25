@@ -1,0 +1,21 @@
+# Example only — not an export of the original lab setup.
+# Official Zammad Docker Compose deployment is maintained at:
+# https://github.com/zammad/zammad-docker-compose
+#
+# For a complete Zammad deployment, use the official repository and its
+# documented environment configuration. A single-container compose file
+# is NOT sufficient for a production or fully functional Zammad install.
+#
+# Clone and run:
+#   git clone https://github.com/zammad/zammad-docker-compose.git
+#   cd zammad-docker-compose
+#   cp .env.dist .env   # if provided by the chosen version
+#   docker compose up -d
+#
+# Consult the upstream README for the current supported steps.
+services:
+  # Demonstration of a generic service definition; not a runnable Zammad stack.
+  placeholder:
+    image: alpine:3.20
+    command: ["sh", "-c", "echo Use the official Zammad Docker Compose stack"]
+    profiles: ["documentation-only"]
