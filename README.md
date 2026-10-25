@@ -14,6 +14,13 @@ This repository documents a simulated helpdesk workflow, using fictional employe
 6. Replied as Mohammed that the issue persisted.
 7. Left the ticket **Open** for further troubleshooting.
 
+
+## Visual walkthrough
+
+![Documented lab workflow](assets/lab-workflow.svg)
+
+> The diagram is an **illustration of the actions performed**, not a Zammad screenshot. Original screenshots have not yet been published in this repository.
+
 ## Original screenshot evidence
 
 The following are actual photographs from the local lab. The final enhanced images are available in the documentation archive; they will appear below once the `evidence/` images are uploaded to this repository.
