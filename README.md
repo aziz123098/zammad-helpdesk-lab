@@ -46,3 +46,16 @@ IT Support · ITSM · Ticketing Systems · Zammad · Docker · User Administrati
 - [Publication checklist](docs/publication-checklist.md)
 
 > **Accuracy:** The Wi-Fi problem was simulated and not resolved. No screenshots are represented as proof of steps they do not show. Any workflow illustration is labeled as an illustration rather than a real screenshot.
+
+
+## Reproducible technical examples
+
+The original exercise was performed in the Zammad web UI. To make this repository useful for technical review, it also includes **additional example scripts (not executed as part of the original lab)**:
+
+- [Hands-on commands and setup](docs/hands-on-commands.md)
+- [API connection check](scripts/check-zammad-api.sh)
+- [Read-only ticket listing](scripts/list-tickets.sh)
+- [Optional demo ticket creation](scripts/create-demo-ticket.sh)
+- [Docker Compose deployment guidance](examples/docker-compose.yml)
+
+> The illustrative workflow image has not yet been committed to this repository. It must be labeled as an illustration and should not be presented as an actual Zammad screenshot.
