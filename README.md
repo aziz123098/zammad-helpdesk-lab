@@ -1,44 +1,41 @@
 # Zammad IT Helpdesk Lab
 
-![Environment](https://img.shields.io/badge/Environment-Local%20Lab-blue) ![Platform](https://img.shields.io/badge/Platform-Zammad-grey) ![Focus](https://img.shields.io/badge/Focus-ITSM%20%7C%20IT%20Support-teal)
+**Hands-on IT Service Management (ITSM) lab** · Zammad · Docker · Local environment
 
-## Overview
-A hands-on IT service desk simulation using **Zammad** and **Docker** in a local environment. This is a personal technical lab, **not** a production deployment or a custom-built helpdesk application.
+This repository documents a simulated helpdesk workflow, using fictional employee and technician accounts. It is **not** a custom-built Zammad product or a production deployment.
 
-## Objectives
-- Practice user administration, technician/customer roles and support groups.
-- Explore group-based access permissions.
-- Manage the ticket lifecycle: creation, assignment, status, and customer replies.
-- Simulate realistic IT support communication.
+## Practical workflow
 
-## Lab Environment
-- Zammad Helpdesk
-- Docker
-- Localhost
-- Sample users: Abdulaziz (admin), Ahmed (technician), Mohammed (customer)
-- Support group: IT Helpdesk
+1. Configured a local Zammad environment.
+2. Created sample users **Ahmed Technician** and **Mohammed Employee**.
+3. Practiced IT Helpdesk group permissions and ticket ownership.
+4. Managed **ticket #14003 — Unable to Connect to Wi-Fi**.
+5. Assigned the ticket to Ahmed and sent a public technician response.
+6. Replied as Mohammed that the issue persisted.
+7. Left the ticket **Open** for further troubleshooting.
 
-## Scenario: Wi-Fi Connectivity Incident
-**Sample ticket #14003 — Unable to Connect to Wi-Fi**
+## Original screenshot evidence
 
-1. The customer submits a Wi-Fi connectivity issue.
-2. The ticket is assigned to Ahmed Technician.
-3. The technician requests a restart and reconnection attempt.
-4. The customer reports that the issue persists.
-5. The ticket remains **Open** pending further troubleshooting.
+The following are actual photographs from the local lab. The final enhanced images are available in the documentation archive; they will appear below once the `evidence/` images are uploaded to this repository.
 
-> This was a simulated incident. No real Wi-Fi repair or completed resolution is claimed.
+| Evidence | What it shows |
+|---|---|
+| 01 — Local Helpdesk | Zammad dashboard |
+| 02 — User Management | Sample user directory |
+| 03 — Access Control | Group permissions |
+| 04 — Dashboard View | Additional dashboard view (not a ticket conversation) |
+| 05 — Customer Response | Mohammed's unresolved Wi-Fi reply |
+| 06 — Ticket Assignment | Ticket ownership and status controls |
 
-## Screenshot Evidence
-The screenshots are included in the [downloadable lab archive](https://github.com/aziz123098/zammad-helpdesk-lab) and can be added to the `screenshots/` directory after a privacy review. Screenshots should show only actual Zammad screens, **not stock imagery or avatars**.
+## Skills
 
-## Skills Demonstrated
-IT Support · ITSM · Incident Management · Ticketing Systems · User Management · Group Permissions · Ticket Assignment · Customer Communication · Technical Documentation
+IT Support · ITSM · Ticketing Systems · Zammad · Docker · User Administration · Access Permissions · Incident Tracking · Customer Communication
 
 ## Documentation
-- [Lab workflow](docs/lab-workflow.md)
+
+- [Practical workflow](docs/practical-evidence.md)
+- [Lab notes](docs/lab-workflow.md)
 - [Resume entry](docs/resume-entry.md)
 - [Publication checklist](docs/publication-checklist.md)
 
-## Limitations
-This project documents a learning exercise, not a production service desk. Automated SLA rules, integrations, production monitoring, and incident resolution were not implemented.
+> **Accuracy:** The Wi-Fi problem was simulated and not resolved. No screenshots are represented as proof of steps they do not show. Any workflow illustration is labeled as an illustration rather than a real screenshot.
