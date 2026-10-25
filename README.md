@@ -4,6 +4,13 @@
 
 This repository documents a simulated helpdesk workflow, using fictional employee and technician accounts. It is **not** a custom-built Zammad product or a production deployment.
 
+
+## Visual workflow
+
+![Zammad IT Helpdesk Lab — illustrative workflow](assets/zammad-workflow.svg)
+
+*Illustrative workflow diagram based on the lab steps. This is not a screenshot of the Zammad interface. Original photographic evidence is not yet uploaded.*
+
 ## Practical workflow
 
 1. Configured a local Zammad environment.
